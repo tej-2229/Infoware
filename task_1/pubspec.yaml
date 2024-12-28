@@ -1,0 +1,25 @@
+name: task_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  audioplayers: ^6.1.0
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Uri.mp3
